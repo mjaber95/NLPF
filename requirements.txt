@@ -1,0 +1,11 @@
+gutenbergpy
+nltk
+wordcloud
+matplotlib
+numpy
+pandas
+speechrecognition
+pyaudio
+pyttsx3
+scipy
+ffmpeg-python

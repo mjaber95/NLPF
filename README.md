@@ -12,11 +12,11 @@
 4. Tagging
    - [Python examples](https://github.com/satuelisa/NLPF/blob/main/NLPF_04_P.ipynb)
    - [R examples](https://github.com/satuelisa/NLPF/blob/main/NLPF_04_R.ipynb)
-5. Word Networks 
+5. Word Networks
    - [Python examples](https://github.com/satuelisa/NLPF/blob/main/NLPF_05_P.ipynb)
 6. Correction & Prediction
    - [Python examples](https://github.com/satuelisa/NLPF/blob/main/NLPF_06_P.ipynb)
-7. Stemming 
+7. Stemming
    - [Python examples](https://github.com/satuelisa/NLPF/blob/main/NLPF_07_P.ipynb)
 8. Vectorization
    - [R examples](https://github.com/satuelisa/NLPF/blob/main/NLPF_08_R.ipynb)
@@ -27,7 +27,19 @@
 
 ## Tools and libraries
 
-For each library that requires installation, the parenthesis indicates the sessions that employ the package. 
+For each library that requires installation, the parenthesis indicates the sessions that employ the package.
+
+On macos: first install portaudio. Otherwise an error will occur when installing pyaudio.
+
+```shell
+brew install portaudio
+```
+
+Install all the python libraries from the requirements file (do this in a new virtual environment)
+
+```shell
+pip install -r requirements.txt
+```
 
 a. [Python](https://www.python.org/) &mdash; [Create a new Colab in Python](https://colab.research.google.com/notebook#create=true)
 * `gutenbergpy` (S01)
@@ -35,7 +47,7 @@ a. [Python](https://www.python.org/) &mdash; [Create a new Colab in Python](http
 * `wordcloud` (S01)
 * `matplotlib` (S01)
 * `numpy` (S01)
-* `pandas` (S01) 
+* `pandas` (S01)
 * `speechrecognition`(S10)
 * `pyaudio` (S10)
 * `pyttsx3` (S10)
@@ -49,8 +61,8 @@ b. [R](https://www.r-project.org/) &mdash; [Create a new Colab in R](https://col
 * `quanteda` (S01)
 * `quanteda.textplot` (S01)
 * `tm` (S02)
-* `reshape` (S02) 
-* `reshape2` (S02) 
+* `reshape` (S02)
+* `reshape2` (S02)
 * `topicmodels` (S02)
 * `wordcloud` (S02)
 * `RColorBrewer` (S02)
@@ -109,7 +121,7 @@ The contents of each assignment is detailed on myCourses and also as a single fi
 - *lexicon* = a set of words, a vocabulary
 - *unigram* = a unit of language that is a single word
 
-## Session 4: Tagging 
+## Session 4: Tagging
 - *part of speech* (POS) = *lexical category* = *word class* = the "grammar classes" of words such as nouns, adverbs, verbs, adjectives, etc.
 - *bigram* = a two-word sequence
 - *n-gram* = a sequence of *n* words
